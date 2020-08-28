@@ -1,0 +1,88 @@
+.modal{
+    display:none;
+}
+.modal .modal-shadow{
+    background:#a8b66dad;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 998;
+}
+.modal .modal-content{
+    width: 550px;
+    height: auto;
+    padding: 10px;
+    border:1px solid #b9c198;
+    background:rgb(183, 193, 162);
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(183, 193, 162);
+    -moz-box-shadow: 0px 0px 5px 0px rgb(183, 193, 162);
+    box-shadow: 0px 0px 5px 0px rgb(183, 193, 162);
+    position: fixed;
+    z-index: 99999;
+    border-radius: 4px;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    top: 120px;
+}
+.modal .modal-content .input-form{
+    padding: 10px;
+    width: 80%;
+    border-radius: 4px;
+    display: block;
+    margin: 10px auto;
+    border:none;
+    color: #434f51;
+
+}
+.modal .modal-content .input-form::placeholder{
+    color: #6a6a6a;
+}
+.modal .modal-content .submit-form{
+    border:none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.modal .close-modal{
+    background-image: url(close_icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+}
+.modal .error_input_modal{
+    color: #77844f;
+    padding: 5px 10px;
+    width: 290px;
+    margin: auto;
+    font-weight: 600;
+    font-size: 14px;
+}
+.modal .texto-title{
+    margin: 0px!important
+}
+.modal .titel_product{
+    color:#77844f;
+    padding:20px;
+}
+
+@media only screen and (max-width: 790px) {
+    .modal .modal-content{
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 300px) {
+     .modal .modal-content{
+        width: 230px;
+    }
+}
