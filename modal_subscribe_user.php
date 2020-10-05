@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name:  Modal Subscriber User
-Plugin URI:
+Plugin URI:   https://creatives.com.co/
 Description:  Plugin for new user subscriber with offer system.
 Version:      1.0
 Author:       David Fernando Valenzuela Pardo
-Author URI:
+Author URI:   https://github.com/valenzuela21/
 License:      GPL2
 License URI:  https://creatives.com.co/
 Text Domain:  subscribe-user-natural
